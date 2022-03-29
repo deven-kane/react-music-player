@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/react-music-player/static/js/main.3ae6ec9d.js",
+    "static/js/787.0ec5325e.chunk.js": "/react-music-player/static/js/787.0ec5325e.chunk.js",
+    "index.html": "/react-music-player/index.html",
+    "main.3ae6ec9d.js.map": "/react-music-player/static/js/main.3ae6ec9d.js.map",
+    "787.0ec5325e.chunk.js.map": "/react-music-player/static/js/787.0ec5325e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.3ae6ec9d.js"
+  ]
+}
