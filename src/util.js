@@ -6,7 +6,7 @@ function devsFaveSongs() {
       name: 'Drift',
       artist: 'Somni',
       id: uuidv4(),
-      active: false,
+      active: true,
       color: ['#2E6872 , #E17556'],
       cover:
         'https://chillhop.com/wp-content/uploads/2022/01/d7c0bd347f56540babd9dd85454b93a89df84a15-1024x1024.jpg',
