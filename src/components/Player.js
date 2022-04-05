@@ -7,6 +7,11 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 
 const Player = ({currentSong, isPlaying, setIsPlaying}) => {
+  //State used to track song time
+  const [songInfo, setSongInfo] = useState({
+    currentTime: 0,
+    duration: 0,
+  });
   //Ref
   const audioRef = useRef(null);
   //Event Handlers
@@ -37,11 +42,7 @@ const Player = ({currentSong, isPlaying, setIsPlaying}) => {
     audioRef.current.currentTime = e.target.value;
     setSongInfo({...songInfo, currentTime: e.target.value});
   };
-  //State used to track song time
-  const [songInfo, setSongInfo] = useState({
-    currentTime: 0,
-    duration: 0,
-  });
+
   return (
     <div className="player">
       <div className="time-control">
