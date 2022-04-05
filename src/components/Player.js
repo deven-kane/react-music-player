@@ -39,8 +39,8 @@ const Player = ({currentSong, isPlaying, setIsPlaying}) => {
   };
   //State used to track song time
   const [songInfo, setSongInfo] = useState({
-    currentTime: null,
-    duration: null,
+    currentTime: 0,
+    duration: 0,
   });
   return (
     <div className="player">
