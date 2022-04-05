@@ -7,7 +7,7 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 
 const Player = ({currentSong, isPlaying, setIsPlaying}) => {
-  //State used to track song time
+  //State to track song time
   const [songInfo, setSongInfo] = useState({
     currentTime: 0,
     duration: 0,
@@ -27,7 +27,7 @@ const Player = ({currentSong, isPlaying, setIsPlaying}) => {
     }
   };
 
-  //function used to extract currentTime of song and duration
+  //extract currentTime of song and duration
   const timeUpdateHandler = (e) => {
     const current = e.target.currentTime;
     const duration = e.target.duration;
@@ -35,14 +35,14 @@ const Player = ({currentSong, isPlaying, setIsPlaying}) => {
     setSongInfo({...songInfo, currentTime: current, duration});
   };
 
-  //function used to format song time in minutes and seconds
+  //format song time in minutes and seconds
   const getTime = (time) => {
     return (
       Math.floor(time / 60) + ':' + ('0' + Math.floor(time % 60)).slice(-2)
     );
   };
 
-  //function used to update state when the onChange event is ran
+  //update state when the onChange event is ran
   const dragHandler = (e) => {
     audioRef.current.currentTime = e.target.value;
     setSongInfo({...songInfo, currentTime: e.target.value});
