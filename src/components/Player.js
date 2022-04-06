@@ -63,24 +63,20 @@ const Player = ({currentSong, isPlaying, setIsPlaying}) => {
 
         <p>{getTime(songInfo.duration)}</p>
       </div>
-
       <div className="play-control">
         <FontAwesomeIcon className="skip-back" size="2x" icon={faAngleLeft} />
-
         <FontAwesomeIcon
           onClick={playSongHandler}
           className="play"
           size="2x"
           icon={faPlay}
         />
-
         <FontAwesomeIcon
           className="skip-forward"
           size="2x"
           icon={faAngleRight}
         />
       </div>
-
       <audio
         onTimeUpdate={timeUpdateHandler}
         onLoadedMetadata={timeUpdateHandler}
