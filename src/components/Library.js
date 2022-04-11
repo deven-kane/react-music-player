@@ -1,5 +1,5 @@
 import React from 'react';
-import devsFaveSongs from '../util';
+import devsFaveSongs from '../data';
 import LibrarySong from './LibrarySong';
 
 const Library = ({
