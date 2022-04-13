@@ -32,7 +32,7 @@ function devsFaveSongs() {
         'https://chillhop.com/wp-content/uploads/2022/01/c0d38a1ac4ad0614301ecc77e10767b1c4f34a53-1024x1024.jpg',
       audio: 'https://mp3.chillhop.com/serve.php/?mp3=30141',
     },
-    {
+    {..
       name: 'Leaf Contour',
       artist: 'Sleepy Fish',
       id: uuidv4(),
