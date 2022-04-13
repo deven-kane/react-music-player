@@ -7,7 +7,7 @@ function devsFaveSongs() {
       artist: 'Somni',
       id: uuidv4(),
       active: true,
-      color: ['#2E6872 , #E17556'],
+      color: ['#2E6872', '#E17556'],
       cover:
         'https://chillhop.com/wp-content/uploads/2022/01/d7c0bd347f56540babd9dd85454b93a89df84a15-1024x1024.jpg',
       audio: 'https://mp3.chillhop.com/serve.php/?mp3=30133',
@@ -32,12 +32,12 @@ function devsFaveSongs() {
         'https://chillhop.com/wp-content/uploads/2022/01/c0d38a1ac4ad0614301ecc77e10767b1c4f34a53-1024x1024.jpg',
       audio: 'https://mp3.chillhop.com/serve.php/?mp3=30141',
     },
-    {..
+    {
       name: 'Leaf Contour',
       artist: 'Sleepy Fish',
       id: uuidv4(),
       active: false,
-      color: ['#C55256, #317A76'],
+      color: ['#C55256', '#317A76'],
       cover:
         'https://chillhop.com/wp-content/uploads/2022/01/e21760a2e6450015317e20f65dbba27237099f34-1024x1024.jpg',
       audio: 'https://mp3.chillhop.com/serve.php/?mp3=30130',
